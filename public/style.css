@@ -1,3 +1,63 @@
-body {
-    background-color: aquamarine;
-}
+    body{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        background-color: orange;
+    }
+
+    .cabecalho {
+        background-color: rgb(27, 26, 26);
+        color: white;
+        text-align: center;
+        
+    }
+    .conteudo{
+        background-color:orange;
+        
+       
+    }
+
+    .menu ul {
+        display: flex;
+        justify-content: center;
+        list-style-position: inside;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .menu ul li {
+        padding-left: 10px;
+    }
+
+    .destaque{
+        text-align: center;
+    }
+
+
+    .cartoes article img{
+        width: 300px;
+        height: 400px;}
+
+    .cartoes {
+        display: flex;
+        justify-content: center; 
+        gap: 20px; 
+        
+    }
+
+    .card {
+        text-align: center;
+    }
+    .card img{
+        border-radius: 10%;
+    }
+
+    .formulario {
+
+        text-align: center;
+    }
+
+    .rodape{
+        background-color: orange;
+        text-align: center;
+    }
